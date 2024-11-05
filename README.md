@@ -2,6 +2,7 @@
 [![C#](https://img.shields.io/badge/Made%20with-C%23-239120.svg)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 [![.NET](https://img.shields.io/badge/.NET-5C2D91.svg)](https://dotnet.microsoft.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg)](https://github.com/)
+[![REST API](https://img.shields.io/badge/API-REST-blue.svg)](https://en.wikipedia.org/wiki/Representational_state_transfer)
 [![RestSharp](https://img.shields.io/badge/Library-RestSharp-008080.svg)](https://restsharp.dev/)
 [![NUnit](https://img.shields.io/badge/tested%20with-NUnit-22B2B0.svg)](https://nunit.org/)
 
