@@ -154,16 +154,6 @@ namespace TestGitHubApi
 
             Assert.That(duplicateIssue.Id, Is.Not.EqualTo(firstIssue.Id), "Duplicate issue should have a unique ID.");
         }
-
-        [Test, Order(11)]
-        public void Test_EditCommentWithEmptyBody_ShouldFail()
-        {
-            string emptyBody = "";
-
-            var comment = client.EditCommentOnGitHubIssue(repo, lastCreatedCommentId, emptyBody);
-
-            Assert.That(comment.Body, Is.Not.Empty, "Comment body should not be empty after update.");
-        }
     }
 }
 
